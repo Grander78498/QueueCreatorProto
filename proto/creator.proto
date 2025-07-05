@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "microservices/proto/creator";
+
+service QueueCreatorAPI {
+    rpc SaveUser(UserRequest) returns (UserResponse);
+}
+
+message UserRequest {
+    uint64 tg_id = 1;
+    string username = 2;
+    string full_name = 3;
+}
+
+message UserResponse {
+    uint64 tg_id = 1;
+}
