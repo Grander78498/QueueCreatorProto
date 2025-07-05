@@ -1,4 +1,4 @@
-module microservices/proto
+module github.com/Grander78498/QueueCreatorProto
 
 go 1.24.4
 
