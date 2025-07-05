@@ -4,7 +4,7 @@
 // - protoc             v6.31.1
 // source: creator.proto
 
-package creator
+package QueueCreatorProto
 
 import (
 	context "context"

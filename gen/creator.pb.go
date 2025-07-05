@@ -4,7 +4,7 @@
 // 	protoc        v6.31.1
 // source: creator.proto
 
-package creator
+package QueueCreatorProto
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -137,7 +137,7 @@ const file_creator_proto_rawDesc = "" +
 	"\fUserResponse\x12\x13\n" +
 	"\x05tg_id\x18\x01 \x01(\x04R\x04tgId2:\n" +
 	"\x0fQueueCreatorAPI\x12'\n" +
-	"\bSaveUser\x12\f.UserRequest\x1a\r.UserResponseB\x1dZ\x1bmicroservices/proto/creatorb\x06proto3"
+	"\bSaveUser\x12\f.UserRequest\x1a\r.UserResponseB+Z)github.com/Grander78498/QueueCreatorProtob\x06proto3"
 
 var (
 	file_creator_proto_rawDescOnce sync.Once
